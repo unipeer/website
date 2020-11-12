@@ -26,7 +26,7 @@ export default function Nav() {
                   alt="Logo"
                 />
               </a>
-              <p className="ml-2 font-bold text-2xl text-black-900 tracking-wide">
+              <p className="ml-3 font-bold text-2xl text-black-900 tracking-wide">
                 Unipeer
               </p>
               <div className="-mr-2 flex items-center md:hidden">
@@ -132,7 +132,7 @@ export default function Nav() {
                 </div>
                 <div>
                   <a
-                    href="#"
+                    href="#signup"
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
