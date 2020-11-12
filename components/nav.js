@@ -63,7 +63,7 @@ export default function Nav() {
               Features
             </a>
             <a
-              href="#"
+              href="#signup"
               className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
             >
               Sign up
