@@ -21,7 +21,7 @@ export default function Signup() {
           <input type="hidden" name="form-name" value="newsletter" />
           <div className="sm:flex justify-center">
             <input
-              x-model="email"
+              name="email"
               type="email"
               required=""
               placeholder="Enter your email"
