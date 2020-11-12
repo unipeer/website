@@ -17,6 +17,8 @@ export default function Signup() {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
+          {/* Needed for netlify forms */}
+          <input type="hidden" name="form-name" value="newsletter" />
           <div className="sm:flex justify-center">
             <input
               x-model="email"
