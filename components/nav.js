@@ -26,6 +26,9 @@ export default function Nav() {
                   alt="Logo"
                 />
               </a>
+              <p className="ml-2 font-bold text-2xl text-black-900 tracking-wide">
+                Unipeer
+              </p>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   type="button"
