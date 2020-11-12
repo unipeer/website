@@ -5,7 +5,7 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+    <>
       <svg
         className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
         fill="currentColor"
@@ -54,7 +54,7 @@ export default function Nav() {
           </div>
           <div className="hidden md:block md:ml-10 md:pr-4">
             <a
-              href="#"
+              href="#features"
               className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
             >
               Features
@@ -63,7 +63,7 @@ export default function Nav() {
               href="#"
               className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
             >
-              Log in
+              Sign up
             </a>
           </div>
         </nav>
@@ -120,7 +120,7 @@ export default function Nav() {
                 </div>
                 <div className="px-2 pt-2 pb-3">
                   <a
-                    href="#"
+                    href="#features"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
@@ -133,7 +133,7 @@ export default function Nav() {
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
-                    Log in
+                    Sign up
                   </a>
                 </div>
               </div>
@@ -141,6 +141,6 @@ export default function Nav() {
           </div>
         )}
       </Transition>
-    </div>
+        </>
   );
 }
