@@ -23,7 +23,7 @@ export default function Signup() {
             <input
               name="email"
               type="email"
-              required=""
+              required={true}
               placeholder="Enter your email"
               className="block sm:max-w-xs w-full px-4 py-3 text-base appearance-none border border-gray-300 shadow-none bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
             />
