@@ -13,16 +13,13 @@ export default function IndexPage() {
           <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div class="sm:text-center lg:text-left">
               <h2 class="text-3xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">
-                Trustless INR on-ramp to buy
+                Trustless INR on-ramp to
                 <br class="xl:hidden" />
                 <span class="text-indigo-600"> your first crypto</span>
               </h2>
               <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 The process of buying cryptocurrency should reflect the
-                priciples behind the creation of these cryptocurrencies. That's
-                why we've built Unipeer for the Indian market as a non-custodial
-                solution to buy and sell crypto from each other using
-                traditional payment systems in a completely automated manner.
+                priciples behind the creation of these cryptocurrencies.
               </p>
               <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">

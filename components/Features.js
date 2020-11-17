@@ -7,8 +7,9 @@ export default function Features() {
             Why Unipeer
           </h3>
           <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+                We've built Unipeer for the Indian market as a non-custodial
+                solution to buy and sell crypto from each other using
+                traditional payment systems in a completely automated manner.
           </p>
         </div>
 
