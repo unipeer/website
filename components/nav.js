@@ -66,7 +66,7 @@ export default function Nav() {
               href="#signup"
               className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
             >
-              Sign up
+              Join Waitlist
             </a>
           </div>
         </nav>
@@ -82,7 +82,10 @@ export default function Nav() {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div ref={ref} className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div
+            ref={ref}
+            className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+          >
             <div className="rounded-lg shadow-md">
               <div
                 className="rounded-lg bg-white shadow-xs overflow-hidden"
@@ -144,6 +147,6 @@ export default function Nav() {
           </div>
         )}
       </Transition>
-        </>
+    </>
   );
 }

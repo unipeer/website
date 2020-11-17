@@ -16,3 +16,62 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+.u-built-with-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.u-built-with-images img {
+  max-width: 350px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7885ff;
+  color: white;
+}
+#footer > div {
+  text-align: center;
+}
+.u-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.u-social-links img {
+  max-width: 50px;
+  margin: 30px;
+}
+
+.u-terms-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.u-terms-links a {
+  margin-bottom: 8px;
+}
+
+.u-terms-page h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert;
+  font-weight: revert;
+  margin: 16px 0px;
+}
+.u-terms-page p {
+  margin: 16px 0px;
+}
+.u-terms-page ol {
+  list-style: decimal;
+}
+.u-terms-page ul {
+  list-style: circle;
+}
