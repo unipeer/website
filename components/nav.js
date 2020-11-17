@@ -19,7 +19,7 @@ export default function Nav() {
         <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#" aria-label="Home">
+              <a href="/" aria-label="Home">
                 <img
                   className="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/v1/workflow-mark-on-white.svg"
@@ -57,13 +57,13 @@ export default function Nav() {
           </div>
           <div className="hidden md:block md:ml-10 md:pr-4">
             <a
-              href="#features"
+              href="/#features"
               className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
             >
               Features
             </a>
             <a
-              href="#signup"
+              href="/#signup"
               className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
             >
               Join Waitlist
@@ -126,7 +126,7 @@ export default function Nav() {
                 </div>
                 <div className="px-2 pt-2 pb-3">
                   <a
-                    href="#features"
+                    href="/#features"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
@@ -135,7 +135,7 @@ export default function Nav() {
                 </div>
                 <div>
                   <a
-                    href="#signup"
+                    href="/#signup"
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
