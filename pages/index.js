@@ -38,6 +38,8 @@ export default function IndexPage() {
                   >
                     Live demo
                   </a>
+                  {/* Remove the below line */}
+                  {/* <Link href={"/joinWaitlist?title=Demo"}>JoinWaitlist</Link> */}
                 </div>
               </div>
             </div>

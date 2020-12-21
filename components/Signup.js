@@ -1,4 +1,11 @@
 export default function Signup() {
+
+  const submitJoinWaitlist = (e) => {
+    e.preventDefault();
+    console.log(e.target.email.value);
+    window.location.href = `/joinWaitlist?title=${e.target.email.value}`;
+  }
+
   return (
     <div className="p-6 mb-4" id="signup">
       <div className="relative border border-gray-200 rounded-lg px-4 py-6 shadow sm:px-6 sm:py-8 lg:p-12 xl:p-16">
@@ -12,6 +19,7 @@ export default function Signup() {
           method="POST"
           className="py-4"
           name="newsletter"
+          onSubmit={submitJoinWaitlist}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
