@@ -4,8 +4,12 @@ export default function Footer() {
       <div>
         Join our <br />
         <div className="u-social-links">
-          <img src="/assets/images/telegram.png" />
-          <img src="/assets/images/discord.png" />
+          <a href="https://t.me/unipeerx">
+            <img src="/assets/images/telegram.png" />
+          </a>
+          <a href="https://discord.gg/tBFEdh2T8w">
+            <img src="/assets/images/discord.png" />
+          </a>
         </div>
       </div>
       <div>

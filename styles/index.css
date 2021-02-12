@@ -42,9 +42,13 @@
   justify-content: space-around;
   text-align: center;
 }
+
+.u-social-links a {
+  padding: 10px;
+}
+
 .u-social-links img {
   max-width: 50px;
-  margin: 30px;
 }
 
 .u-terms-links {
