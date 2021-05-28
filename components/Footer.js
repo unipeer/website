@@ -7,8 +7,11 @@ export default function Footer() {
           <a href="https://t.me/unipeerx">
             <img src="/assets/images/telegram.png" />
           </a>
-          <a href="https://discord.gg/tBFEdh2T8w">
+          <a href="https://discord.gg/CBvGgQak5J">
             <img src="/assets/images/discord.png" />
+          </a>
+          <a href="https://github.com/unipeer">
+            <img src="/assets/images/github.png" />
           </a>
         </div>
       </div>
