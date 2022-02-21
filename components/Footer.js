@@ -20,11 +20,6 @@ export default function Footer() {
         <br />
         hello@unipeer.exchange
       </div>
-      <div className="u-terms-links">
-        <a href="/terms">Terms of Service</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/aml_kyc_policy">KYC/AML</a>
-      </div>
     </div>
   );
 }

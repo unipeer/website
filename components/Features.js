@@ -7,9 +7,9 @@ export default function Features() {
             Why Unipeer
           </h3>
           <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-                We've built Unipeer for the Indian market as a non-custodial
+                We've built Unipeer for the p2p market as a non-custodial
                 solution to buy and sell crypto from each other using
-                traditional payment systems in a completely automated manner.
+                traditional payment systems in a completely decentralized manner.
           </p>
         </div>
 
@@ -68,11 +68,12 @@ export default function Features() {
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg leading-6 font-medium text-gray-900">
-                    Invisible KYC
+                    On-Chain Dispute resolution
                   </h4>
                   <p class="mt-2 text-base leading-6 text-gray-500">
-                    No need to upload id and documents. We use Banking data
-                    sources to collect information automatically
+                      Completely fair and unbiased dispute resolution with
+                      the Kleros protocol. Using Kleros makes sure that unipeer
+                      is completely fair and decentralized.
                   </p>
                 </div>
               </div>
@@ -130,11 +131,11 @@ export default function Features() {
                 </div>
                 <div class="ml-4">
                   <h4 class="text-lg leading-6 font-medium text-gray-900">
-                    Direct INR on ramp SDK for developers
+                    Direct Fiat on ramp SDK for developers
                   </h4>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     A trustless on ramp option for developers who wants to
-                    integrate INR on ramps to their dapps & Protocols
+                    integrate Fiat on ramps to their dapps & Protocols
                   </p>
                 </div>
               </div>

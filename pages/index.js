@@ -13,7 +13,7 @@ export default function IndexPage() {
           <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div class="sm:text-center lg:text-left">
               <h2 class="text-3xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-4xl sm:leading-none md:text-5xl">
-                Trustless INR on-ramp to
+                Trustless Fiat on-ramp to
                 <br class="xl:hidden" />
                 <span class="text-indigo-600"> your first crypto</span>
               </h2>
