@@ -9,7 +9,7 @@ export default function BuiltWith() {
         </div>
         <div class="mt-10 u-built-with-images">
           <img src="/assets/images/ethereum.png" />
-          <img src="/assets/images/chainlink.png" />
+          <img src="/assets/images/kleros-logo.svg" />
         </div>
       </div>
     </div>
