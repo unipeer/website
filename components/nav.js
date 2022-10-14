@@ -58,15 +58,15 @@ export default function Nav() {
           <div className="hidden md:block md:ml-10 md:pr-4">
             <a
               href="/#features"
-              className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+              className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
             >
               Features
             </a>
             <a
               href="/#signup"
-              className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
+              className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
             >
-              Join Waitlist
+              Subscribe
             </a>
           </div>
         </nav>
