@@ -63,10 +63,11 @@ export default function Nav() {
               Features
             </a>
             <a
-              href="/#signup"
+              href="https://docs.unipeer.exchange"
+              target="_blank"
               className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
             >
-              Subscribe
+              Docs
             </a>
           </div>
         </nav>
