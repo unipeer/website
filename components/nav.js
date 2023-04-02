@@ -6,29 +6,24 @@ export default function Nav() {
 
   return (
     <>
-      <svg
+      {/* <svg
         className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
         fill="currentColor"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
       >
         <polygon points="50,0 100,0 50,100 0,100" />
-      </svg>
-
-      <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+      </svg> */}
+      <div
+        className="relative pt-6 px-4 sm:px-6 lg:px-8"
+        style={{ padding: "20px" }}
+      >
         <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="/" aria-label="Home">
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/v1/workflow-mark-on-white.svg"
-                  alt="Logo"
-                />
+              <a href="/">
+                <img src="assets/images/Unipeer_Logo.png" />
               </a>
-              <p className="ml-3 font-bold text-2xl text-black-900 tracking-wide">
-                Unipeer
-              </p>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   type="button"
@@ -55,20 +50,50 @@ export default function Nav() {
               </div>
             </div>
           </div>
-          <div className="hidden md:block md:ml-10 md:pr-4">
-            <a
-              href="/#features"
-              className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
+          <div style={{ width: "100%", display: "flex", flexDirection: "row" }}>
+            <div
+              className="hidden md:block md:ml-10 md:pr-4"
+              style={{ width: "50%" }}
             >
-              Features
-            </a>
-            <a
-              href="https://docs.unipeer.exchange"
-              target="_blank"
-              className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-            >
-              Docs
-            </a>
+              <a
+                href="/#features"
+                className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+              >
+                Overview
+              </a>
+              <a
+                href="https://docs.unipeer.exchange"
+                target="_blank"
+                className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+              >
+                Features
+              </a>
+              <a
+                href="https://docs.unipeer.exchange"
+                target="_blank"
+                className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+              >
+                FAQs
+              </a>
+              <a
+                href="https://docs.unipeer.exchange"
+                target="_blank"
+                className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
+              >
+                Docs
+              </a>
+            </div>
+            <div className="rounded-md flex justify-end w-6/12">
+              <a
+                href="https://app.unipeer.exchange"
+                style={{
+                  backgroundColor: "#fe5e44",
+                }}
+                className="text-base w-40 flex border border-transparent font-normal rounded-md text-white transition duration-150 ease-in-out px-3"
+              >
+                Try on Testnet
+              </a>
+            </div>
           </div>
         </nav>
       </div>
