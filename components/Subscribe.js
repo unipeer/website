@@ -55,13 +55,6 @@ export default function Subscribe() {
             >
               Send me updates
             </button>
-            {/* <a
-              href="https://app.unipeer.exchange"
-              style={{ backgroundColor: "#fe5e44" }}
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-            >
-              Send me updates
-            </a> */}
           </form>
         </div>
         <div style={{ width: "200px" }}></div>

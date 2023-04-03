@@ -1,141 +1,130 @@
-export default function Features() {
+export default function Demo3() {
   return (
     <div className="py-12 bg-white" id="features">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div
+        className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8"
+        style={{ backgroundColor: "#eff1ff", padding: "100px" }}
+      >
         <div className="lg:text-center">
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Why Unipeer
+            Why Choose Unipeer ?
           </h3>
-          <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-                We've built Unipeer for the p2p market as a non-custodial
-                solution to buy and sell crypto from each other using
-                traditional payment systems in a completely decentralized manner.
-          </p>
+          {/* <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            We've built Unipeer for the p2p market as a non-custodial solution
+            to buy and sell crypto from each other using traditional payment
+            systems in a completely decentralized manner.
+          </p> */}
         </div>
 
         <div className="mt-10">
           <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            <li>
+            <li
+              style={{
+                padding: "40px 40px 48px",
+                borderRadius: "8px",
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+                backgroundColor: "white",
+              }}
+            >
               <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <svg
-                      className="h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                      />
-                    </svg>
-                  </div>
+                <div className="flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="assets/images/Low_fee.svg" />
                 </div>
+              </div>
+              <div className="flex-shrink-0">
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Trustless Peer to Peer
+                    Low Fees
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    No need to rely on third party for your Fiat crypto
-                    settlements Your keys, Your Coin
+                    Low protocol fees that’s not enabled by default. Sellers
+                    automatically optimize for payment methods that have
+                    zero-to-low fees for p2p transfers bringing the overall
+                    trading fees down.
                   </p>
                 </div>
               </div>
             </li>
-            <li className="mt-10 md:mt-0">
+            <li
+              className="mt-10 md:mt-0"
+              style={{
+                padding: "40px 40px 48px",
+                borderRadius: "8px",
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+                backgroundColor: "white",
+              }}
+            >
               <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <svg
-                      className="h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                  </div>
+                <div className="flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="assets/images/Dispute.svg" />
                 </div>
+              </div>
+              <div className="flex-shrink-0">
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    On-Chain Dispute resolution
+                    Trustless Dispute Resolution
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                      Completely fair and unbiased dispute resolution with
-                      the Kleros protocol. Using Kleros makes sure that unipeer
-                      is completely fair and decentralized.
+                    By using Kleros, an independent arbitration protocol for
+                    dispute resolution we maintain credible neutrality and
+                    decentralization of all parties.
                   </p>
                 </div>
               </div>
             </li>
-            <li className="mt-10 md:mt-0">
+            <li
+              className="mt-10 md:mt-0"
+              style={{
+                padding: "40px 40px 48px",
+                borderRadius: "8px",
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+                backgroundColor: "white",
+              }}
+            >
               <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <svg
-                      className="h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M13 10V3L4 14h7v7l9-11h-7z"
-                      />
-                    </svg>
-                  </div>
+                <div className="flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="assets/images/No_KYC.svg" />
                 </div>
+              </div>
+              <div className="flex-shrink-0">
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Intuitive
+                    No KYC
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    Now Buying cryptocurrency is as easy as making an UPI
-                    transaction in a trustless manner
+                    Since Unipeer is a non-custodial swapping protocol similar
+                    to Uniswap, there’s no need for KYC or collecting personal
+                    information of users. Non-custody of user funds is enabled
+                    by our escrow smart contracts.
                   </p>
                 </div>
               </div>
             </li>
-            <li className="mt-10 md:mt-0">
+            <li
+              className="mt-10 md:mt-0"
+              style={{
+                padding: "40px 40px 48px",
+                borderRadius: "8px",
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+                backgroundColor: "white",
+              }}
+            >
               <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <svg
-                      className="h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
-                      />
-                    </svg>
-                  </div>
+                <div className="flex items-center justify-center h-12 w-12 rounded-md text-white">
+                  <img src="assets/images/Oracles.svg" />
                 </div>
+              </div>
+              <div className="flex-shrink-0">
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium text-gray-900">
-                    Direct Fiat on ramp SDK for developers
+                    Hybrid Oracles
                   </h4>
                   <p className="mt-2 text-base leading-6 text-gray-500">
-                    A trustless on ramp option for developers who wants to
-                    integrate Fiat on ramps to their dapps & Protocols
+                    We enable a hybrid model where our smart contracts are
+                    designed in a manner that lets the community decide on
+                    enabling deterministic and objective oracles for specific
+                    payment methods and tokens as and when they become available
+                    and feasible.
                   </p>
                 </div>
               </div>

@@ -1,11 +1,8 @@
 import Nav from "../components/nav";
-import Features from "../components/Features";
-import Signup from "../components/Signup";
-import BuiltWith from "./../components/BuiltWith";
 import Footer from "./../components/Footer";
 import Demo1 from "../components/Demo1";
 import Demo2 from "../components/Demo2";
-import Demo3 from "../components/Demo3";
+import Features from "../components/Features";
 import FAQ from "../components/FAQ";
 import Subscribe from "../components/Subscribe";
 
@@ -85,12 +82,9 @@ export default function IndexPage() {
       </div>
       <Demo1 />
       <Demo2 />
-      <Demo3 />
+      <Features />
       <FAQ />
       <Subscribe />
-      {/* <Features /> */}
-      {/* <BuiltWith /> */}
-      <Signup />
       <Footer />
     </div>
   );
