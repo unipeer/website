@@ -25,8 +25,6 @@ export default function Subscribe() {
       >
         <div style={{ width: "70%" }}>
           <h2>Subscribe for updates from us</h2>
-          <br />
-          <br />
           <form
             method="POST"
             className="py-4"
