@@ -33,35 +33,34 @@ export default function Footer() {
         }}
       >
         <a
-          href="/#features"
+          href="https://app.unipeer.exchange/"
+          target="https://app.unipeer.exchange/"
           className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
         >
           Try on Testnet
         </a>
         <a
-          href="https://docs.unipeer.exchange"
-          target="_blank"
+          href="/#features"
           className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
         >
           Features
         </a>
         <a
-          href="https://docs.unipeer.exchange"
-          target="_blank"
+          href="/#faq"
           className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
         >
           FAQs
         </a>
         <a
           href="https://docs.unipeer.exchange"
-          target="_blank"
+          target="https://docs.unipeer.exchange"
           className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
         >
           Docs
         </a>
         <a
           href="https://docs.unipeer.exchange"
-          target="_blank"
+          target="https://docs.unipeer.exchange"
           className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
         >
           Privacy
@@ -106,8 +105,19 @@ export default function Footer() {
               justifyContent: "end",
             }}
           >
-            <img src="assets/images/Telegram.svg" />
-            <img src="assets/images/Twitter.svg" />
+            <a
+              href="https://t.me/unipeerx"
+              target="https://t.me/unipeerx"
+              style={{ marginRight: "10px" }}
+            >
+              <img src="assets/images/Telegram.svg" />
+            </a>
+            <a
+              href="https://twitter.com/unipeerdoteth"
+              target="https://twitter.com/unipeerdoteth"
+            >
+              <img src="assets/images/Twitter.svg" />
+            </a>
           </div>
         </div>
       </div>
