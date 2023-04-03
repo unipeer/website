@@ -56,28 +56,26 @@ export default function Nav() {
               style={{ width: "50%" }}
             >
               <a
-                href="/#features"
+                href="/#overview"
                 className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               >
                 Overview
               </a>
               <a
-                href="https://docs.unipeer.exchange"
-                target="_blank"
+                href="/#features"
                 className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               >
                 Features
               </a>
               <a
-                href="https://docs.unipeer.exchange"
-                target="_blank"
+                href="/#faq"
                 className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               >
                 FAQs
               </a>
               <a
                 href="https://docs.unipeer.exchange"
-                target="_blank"
+                target="https://docs.unipeer.exchange"
                 className="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               >
                 Docs
@@ -89,7 +87,7 @@ export default function Nav() {
                 style={{
                   backgroundColor: "#fe5e44",
                 }}
-                className="text-base w-40 flex border border-transparent font-normal rounded-md text-white transition duration-150 ease-in-out px-3"
+                className="text-base w-40 flex border border-transparent font-normal rounded-md text-white transition duration-150 ease-in-out px-6"
               >
                 Try on Testnet
               </a>

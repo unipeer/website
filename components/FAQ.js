@@ -46,7 +46,7 @@ export default function FAQ() {
   return (
     <div
       className="relative max-w-screen-xl mx-auto"
-      id="features"
+      id="faq"
       style={{ padding: "50px" }}
     >
       <Faq data={data} styles={styles} config={config} />
