@@ -58,13 +58,15 @@ export default function Footer() {
         >
           Docs
         </a>
-        <a
-          href="https://docs.unipeer.exchange"
-          target="https://docs.unipeer.exchange"
-          className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
-        >
-          Privacy
-        </a>
+        {
+        // <a
+        //   href="https://docs.unipeer.exchange"
+        //   target="https://docs.unipeer.exchange"
+        //   className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
+        // >
+        //   Privacy
+        // </a>
+        }
       </div>
       <div
         style={{

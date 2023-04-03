@@ -87,7 +87,7 @@ export default function Nav() {
                 style={{
                   backgroundColor: "#fe5e44",
                 }}
-                className="text-base w-40 flex border border-transparent font-normal rounded-md text-white transition duration-150 ease-in-out px-6"
+                className="text-base w-40 flex border border-transparent font-normal rounded-md text-white transition duration-150 ease-in-out px-6 py-1"
               >
                 Try on Testnet
               </a>

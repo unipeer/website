@@ -47,7 +47,7 @@ export default function Demo2() {
               <a
                 href="https://kleros.io"
                 target="_blank"
-                className="font-normal"
+                className="text-lg"
                 style={{ color: "#fe5e44" }}
               >
                 Learn more about Kleros
