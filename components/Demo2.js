@@ -44,9 +44,14 @@ export default function Demo2() {
               className="mt-5 sm:mt-8 lg:justify-start text-base"
               style={{ display: "flex", flexDirection: "row" }}
             >
-              <h2 className="font-normal" style={{ color: "#fe5e44" }}>
+              <a
+                href="https://kleros.io"
+                target="_blank"
+                className="font-normal"
+                style={{ color: "#fe5e44" }}
+              >
                 Learn more about Kleros
-              </h2>
+              </a>
               <img
                 src="assets/images/external_link.svg"
                 style={{ marginLeft: "10px" }}
