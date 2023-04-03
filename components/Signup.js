@@ -24,9 +24,10 @@ export default function Signup() {
             />
             <button
               type="submit"
+              style={{ backgroundColor: "#fe5e44", color: "white" }}
               className="mt-4 relative sm:mt-0 sm:h-auto sm:ml-4 block w-full sm:w-auto border border-transparent px-6 py-3 text-base font-semibold leading-snug bg-indigo-600 text-white rounded-md shadow-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500 transition ease-in-out duration-150"
             >
-              Subscribe
+              Send me updates
             </button>
           </div>
         </form>

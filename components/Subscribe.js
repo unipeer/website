@@ -25,35 +25,38 @@ export default function Subscribe() {
       >
         <div style={{ width: "70%" }}>
           <h2>Subscribe for updates from us</h2>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your email address"
-            style={{
-              width: "403px",
-              height: "48px",
-              margin: "32px 242px 32px 0",
-              padding: "16px",
-            }}
-          />
           <br />
           <br />
-          <div
-            style={{
-              width: "176px",
-              height: "56px",
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "10px",
-              borderRadius: "8px",
-              backgroundColor: "#fe5e44",
-              color: "white",
-            }}
+          <form
+            method="POST"
+            className="py-4"
+            name="newsletter"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
           >
-            Send me updates
+            <input type="hidden" name="form-name" value="newsletter" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address"
+              style={{
+                width: "403px",
+                height: "48px",
+                margin: "32px 242px 32px 0",
+                padding: "16px",
+              }}
+              required={true}
+              className="block sm:max-w-xs w-full px-4 py-3 text-base appearance-none border border-gray-300 shadow-none bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+            />
+
+            <button
+              type="submit"
+              style={{ backgroundColor: "#fe5e44", color: "white" }}
+              className="mt-4 relative sm:mt-0 sm:h-auto sm:ml-4 block w-full sm:w-auto border border-transparent px-6 py-3 text-base font-semibold leading-snug bg-indigo-600 text-white rounded-md shadow-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500 transition ease-in-out duration-150"
+            >
+              Send me updates
+            </button>
             {/* <a
               href="https://app.unipeer.exchange"
               style={{ backgroundColor: "#fe5e44" }}
@@ -61,7 +64,7 @@ export default function Subscribe() {
             >
               Send me updates
             </a> */}
-          </div>
+          </form>
         </div>
         <div style={{ width: "200px" }}></div>
         <div style={{ width: "30%" }}>

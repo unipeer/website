@@ -90,7 +90,7 @@ export default function IndexPage() {
       <Subscribe />
       {/* <Features /> */}
       {/* <BuiltWith /> */}
-      {/* <Signup /> */}
+      <Signup />
       <Footer />
     </div>
   );
