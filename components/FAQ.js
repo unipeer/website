@@ -1,6 +1,5 @@
 import React from "react";
 import Faq from "react-faq-component";
-
 const data = {
   title: "Frequesntly asked questions",
   rows: [
@@ -37,10 +36,25 @@ const styles = {
   arrowColor: "red",
 };
 
+function AccordionIcon() {
+  return (
+    <>
+      {" "}
+      <img
+        src="assets/images/chevron-down.svg"
+        className="w-[32px] h-[32px]"
+        alt=""
+      />
+    </>
+  );
+}
+
 const config = {
-  // animate: true,
-  // arrowIcon: "V",
-  // tabFocus: true
+  animate: true,
+  arrowIcon: "V",
+  openOnload: 0,
+  expandIcon: <AccordionIcon />,
+  collapseIcon: <AccordionIcon />,
 };
 
 export default function FAQ() {

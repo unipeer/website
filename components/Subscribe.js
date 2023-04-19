@@ -25,7 +25,7 @@ export default function Subscribe() {
               name="email"
               placeholder="Your email address"
               required={true}
-              className="block md:w-[25rem] px-6 md:px-4 py-3 text-base appearance-none border border-gray-300 shadow-none bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+              className="drop-shadow-xl  block md:w-[25rem] px-6 md:px-4 py-3 text-base appearance-none border border-gray-300  bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
             />
 
             <button

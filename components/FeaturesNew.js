@@ -36,8 +36,8 @@ const FeaturesNew = () => {
 
         {/* dot grid fill SVG */}
         <img
-          className="hidden md:block absolute top-20 left-16 w-20 h-20 z-0"
-          src="assets/images/dot-grid-fill.svg"
+          className="hidden md:block absolute top-[96px] left-16 w-20 h-20 z-0"
+          src="assets/images/Supporting_element.svg"
           alt=""
         />
         <div className=" w-10/12 mx-auto flex flex-col md:flex-row justify-center items-center mb-8 gap-8 md:gap-2 relative z-10">
@@ -63,8 +63,8 @@ const FeaturesNew = () => {
           </div>
         </div>
         <img
-          className="hidden md:block absolute bottom-14 right-16 w-20 h-20 z-0"
-          src="assets/images/dot-grid-fill.svg"
+          className="hidden md:block absolute bottom-16 right-16 w-20 h-20 z-0"
+          src="assets/images/Supporting_element.svg"
           alt=""
         />
       </section>
