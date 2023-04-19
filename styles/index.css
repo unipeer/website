@@ -30,7 +30,7 @@
 #footer {
   display: flex;
   justify-content: space-around;
-  background-color: #7885ff;
+  background-color: #020423;
   color: white;
 }
 #footer > div {
@@ -78,4 +78,81 @@ h6 {
 }
 .u-terms-page ul {
   list-style: circle;
+}
+
+
+/*  */
+
+section.faq-title{
+    border: none !important;
+}
+section.faq-title h2{
+    color:#020423;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+}
+
+section.faq-row{
+    /* border: none !important; */
+    /* margin: 20px; */
+    padding:  20px 0px  !important;
+    color:red !important;
+    font-size: 50px !important;
+
+}
+.icon-wrapper{
+  font-size: 35px;
+  margin-top: 20px !important;
+  width: 40px;
+  /* margin:  20px 0px  !important; */
+}
+.icon-wrapper > .arrow-image {
+  font-size: 35px;
+  width: 40px;
+  color: green !important;
+  /* margin:  20px 0px  !important; */
+}
+.row-title-text{
+    color:#0A0F3F;
+    font-family: 'Inter', sans-serif;
+    font-size:26px;
+}
+.row-content-text{
+  color: #0A0F3F !important;
+  font-size: 22px !important;
+}
+
+
+/*  */
+/* Small screens (up to 640px) */
+@media (max-width: 639px) {
+  body{
+    /* background-color: yellow; */
+  }
+  section.faq-title h2{
+    font-size: 27px !important;
+}
+.row-title-text{
+    font-size:16px !important;
+    font-weight: 500;
+}
+.row-content-text{
+  font-size: 16px !important;
+}
+}
+
+/* Medium screens (between 641px and 768px) */
+@media (min-width: 640px) and (max-width: 767px) {
+}
+
+/* Large screens (between 769px and 1024px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Extra-large screens (between 1025px and 1280px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* 2 Extra-large screens (between 1281px and 1536px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
 }

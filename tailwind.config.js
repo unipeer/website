@@ -9,6 +9,10 @@ module.exports = {
       colors: {
         "accent-1": "#333",
       },
+      fontFamily: {
+        Inter: ["Inter", "sans-serif"],
+        Jost: ["Jost", "sans-serif"],
+      },
     },
   },
   variants: {},

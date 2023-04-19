@@ -1,126 +1,88 @@
+import { FaTelegramPlane } from "react-icons/fa";
+import { BsTwitter, BsGithub } from "react-icons/bs";
 export default function Footer() {
   return (
     <div
-      className="p-6"
+      className="bg-[#020423] w-full px-6 py-16 flex flex-col justify-center  items-start md:items-center"
       id="footer"
-      style={{
-        backgroundColor: "#020423",
-        display: "flex",
-        flexDirection: "column",
-        display: "flex",
-        justifyContent: "center",
-      }}
     >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginBottom: "25px",
-        }}
-      >
+      <div>
         <img
+          className="md:w-48"
           src="assets/images/Unipeer_Logo_white.svg"
           alt=""
-          style={{ height: "8%", width: "8%" }}
         />
       </div>
-      <div
-        className="hidden md:block md:ml-10 md:pr-4"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          margin: "10px 0px 10px 0px",
-        }}
-      >
+
+      <div className="pt-8 flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center gap-6 md:gap-6">
         <a
           href="https://app.unipeer.exchange/"
           target="https://app.unipeer.exchange/"
-          className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
+          className="font-Inter px-2 font-medium text-xl text-white-500 transition duration-150 ease-in-out"
         >
           Try on Testnet
         </a>
         <a
           href="/#features"
-          className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
+          className="font-Inter px-2 font-medium text-xl text-white-500 transition duration-150 ease-in-out"
         >
           Features
         </a>
         <a
           href="/#faq"
-          className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
+          className="font-Inter px-2 font-medium text-xl text-white-500 transition duration-150 ease-in-out"
         >
           FAQs
         </a>
         <a
           href="https://docs.unipeer.exchange"
           target="https://docs.unipeer.exchange"
-          className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
+          className="font-Inter px-2 font-medium text-xl text-white-500 transition duration-150 ease-in-out"
         >
           Docs
         </a>
-        {
-        // <a
-        //   href="https://docs.unipeer.exchange"
-        //   target="https://docs.unipeer.exchange"
-        //   className="ml-8 font-medium text-white-500 transition duration-150 ease-in-out"
-        // >
-        //   Privacy
-        // </a>
-        }
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <div
-          style={{
-            borderBottom: "0.25px solid grey",
-            width: "75%",
-            height: "20px",
-            marginBottom: "50px",
-          }}
-        ></div>
+
+      <div className="w-[96%] md:w-11/12 mx-auto">
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <div style={{ width: "75%", display: "flex", flexDirection: "row" }}>
-          <div
-            style={{ width: "50%", display: "flex", justifyContent: "start" }}
+
+      <div className="w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-between items-start md:items-center gap-8  md:gap-0">
+        <div className="">
+          <p className="font-Inter text-left md:text-xl font-bold text-base">
+            &copy; {new Date().getFullYear()} Unipeer. All rights reserved
+          </p>
+        </div>
+        <div className="flex felx-row justify-start items-start gap-6">
+          <a
+            href="https://twitter.com/unipeerdoteth"
+            target="_blank"
+            rel="noopener noreferr
+            er"
           >
-            © 2023 Unipeer. All rights reserved
-          </div>
-          <div
-            style={{
-              width: "50%",
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "end",
-            }}
+            <div className="flex flex-row justify-center items-center  w-10 h-10 dsdsd bg-[#1B1D38]  rounded-full">
+              <BsTwitter className=" text-white  p-2 w-10 h-10  text-2xl md:text-2xl" />
+            </div>
+          </a>
+
+          <a
+            href="https://t.me/unipeerx"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <a
-              href="https://t.me/unipeerx"
-              target="https://t.me/unipeerx"
-              style={{ marginRight: "10px" }}
-            >
-              <img src="assets/images/Telegram.svg" />
-            </a>
-            <a
-              href="https://twitter.com/unipeerdoteth"
-              target="https://twitter.com/unipeerdoteth"
-            >
-              <img src="assets/images/Twitter.svg" />
-            </a>
-          </div>
+            <div className="flex flex-row justify-center items-center  w-10 h-10 dsdsd bg-[#1B1D38]  rounded-full">
+              <FaTelegramPlane className=" text-white  p-2 w-10 h-10  text-2xl md:text-2xl" />
+            </div>
+          </a>
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="flex flex-row justify-center items-center  w-10 h-10 dsdsd bg-[#1B1D38]  rounded-full">
+              <BsGithub className=" text-white  p-2 w-10 h-10  text-2xl md:text-2xl" />
+            </div>
+          </a>
         </div>
       </div>
     </div>

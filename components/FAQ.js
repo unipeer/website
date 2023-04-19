@@ -5,7 +5,7 @@ const data = {
   title: "Frequesntly asked questions",
   rows: [
     {
-      title: "How many cryptocurrencies do you support on the app?",
+      title: "How many crypto currencies do you support on the app?",
       content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
               ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
               In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
@@ -28,7 +28,8 @@ const data = {
 
 const styles = {
   // bgColor: 'white',
-  titleTextColor: "black",
+  titleTextColor: "#111827",
+  titleTextSize: "28px",
   rowTitleColor: "black",
   rowContentTextSize: "16px",
   titleContentPaddingTop: "40px",
@@ -45,9 +46,9 @@ const config = {
 export default function FAQ() {
   return (
     <div
-      className="relative max-w-screen-xl mx-auto"
+      className="my-12 lg:my-6 relative max-w-screen-xl mx-auto"
       id="faq"
-      style={{ padding: "50px" }}
+      style={{ padding: "30px" }}
     >
       <Faq data={data} styles={styles} config={config} />
     </div>
