@@ -1,21 +1,13 @@
 export default function Demo3() {
   return (
-    <div className="py-12 bg-white" id="features">
-      <div
-        className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8"
-        style={{ backgroundColor: "#eff1ff", padding: "100px" }}
-      >
+    <div className="py-12 bg-[#EFF1FF]" id="features">
+      <div className="" style={{ backgroundColor: "#eff1ff" }}>
         <div className="lg:text-center">
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
             Why Choose Unipeer ?
           </h3>
-          {/* <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-            We've built Unipeer for the p2p market as a non-custodial solution
-            to buy and sell crypto from each other using traditional payment
-            systems in a completely decentralized manner.
-          </p> */}
         </div>
-
+        <div className=""></div>
         <div className="mt-10">
           <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             <li

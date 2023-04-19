@@ -2,32 +2,18 @@ import React from "react";
 
 export default function Subscribe() {
   return (
-    <div
-      className="relative max-w-screen-xl mx-auto"
-      id="features"
-      style={{
-        paddingTop: "25px",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <div
-        style={{
-          width: "100%",
-          //   height: "293px",
-          margin: "32px 260px 80px 256px",
-          padding: "48px",
-          borderRadius: "24px",
-          backgroundColor: "#eff1ff",
-          display: "flex",
-          flexDirection: "row",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <h2>Subscribe for updates from us</h2>
+    <div className="relative w-10/12 my-16  md:mb-10 mx-auto " id="features">
+      <div className="bg-[#eff1ff] py-6  flex flex-col-reverse justify-center items-center md:flex-row rounded-2xl md:px-8 ">
+        <div className="w-8/12 flex flex-col justify-center items-center md:justify-start  md:items-start ">
+          <h2 className="font-Jost text-[#020423] text-4xl hidden md:block">
+            Subscribe for updates from us
+          </h2>
+          <h2 className=" font-Jost text-[#020423] w-full text-xl md:text-xl md:hidden block">
+            Subscribe for updates
+          </h2>
           <form
             method="POST"
-            className="py-4"
+            className="py-4 flex flex-col justify-center items-center md:justify-start md:items-start"
             name="newsletter"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
@@ -38,28 +24,21 @@ export default function Subscribe() {
               id="email"
               name="email"
               placeholder="Your email address"
-              style={{
-                width: "403px",
-                height: "48px",
-                margin: "32px 242px 32px 0",
-                padding: "16px",
-              }}
               required={true}
-              className="block sm:max-w-xs w-full px-4 py-3 text-base appearance-none border border-gray-300 shadow-none bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+              className="drop-shadow-xl  block md:w-[25rem] px-6 md:px-4 py-3 text-base appearance-none border border-gray-300  bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
             />
 
             <button
               type="submit"
               style={{ backgroundColor: "#fe5e44", color: "white" }}
-              className="mt-4 relative sm:mt-0 sm:h-auto sm:ml-4 block w-full sm:w-auto border border-transparent px-6 py-3 text-base font-semibold leading-snug bg-indigo-600 text-white rounded-md shadow-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500 transition ease-in-out duration-150"
+              className=" font-Inter py-3 md:py-5 w-full md:w-8/12 px-6 md:px-4 mt-6 relative   block   border-transparent  text-base md:text-xl font-semibold leading-snug  text-white rounded-md shadow-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500 transition ease-in-out duration-150"
             >
               Send me updates
             </button>
           </form>
         </div>
-        <div style={{ width: "200px" }}></div>
-        <div style={{ width: "30%" }}>
-          <img src="assets/images/Subscribe.svg" alt="" />
+        <div className="w-4/12 flex flex-row justify-center items-center">
+          <img className="md:w-40" src="assets/images/Subscribe.svg" alt="" />
         </div>
       </div>
     </div>

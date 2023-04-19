@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 
 export default function IndexPage() {
   return (
-    <div className="bg-white overflow-hidden u-terms-page">
+    <div className=" overflow-hidden u-terms-page">
       <Nav />
       <div className="p-10">
         <h1>{`AML & KYC Policy`}</h1>
