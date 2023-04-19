@@ -1,4 +1,4 @@
-import Nav from "../components/Nav";
+import Nav from "../components/nav";
 import HeroSection from "../components/HeroSection";
 import Footer from "./../components/Footer";
 import CTAOne from "../components/CTAOne";
