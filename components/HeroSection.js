@@ -7,14 +7,13 @@ const HeroSection = () => {
         <section className=" flex flex-col md:flex-row justify-center items-center gap-2 py-12 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className=" md:w-6/12 sm:text-center lg:text-left">
             <h2 className=" font-Jost text-3xl tracking-tight leading-10 font-extrabold text-[#111827] sm:text-4xl sm:leading-none md:text-5xl">
-              Trustless on/off-ramp to your first crypto
+              Decentralized p2p Exchange.
               <br />
               {/* <span className="font-Jost text-3xl tracking-tight leading-10 font-extrabold text-[#111827]  sm:text-4xl sm:leading-none md:text-5xl"></span> */}
             </h2>
             <p className="font-Inter  py-4 text-xl text-gray-800 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Swap fiat-to-crypto and back via peer-to-peer in your local
-              currency. Experience trustless, decentralized and private swaps
-              with low fees and no KYC.
+              Swap fiat-to-crypto and back directly from peers using your local
+              currency with no trusted 3rd party.
             </p>
             <div className="mt-5 sm:mt-8 flex flex-row justify-start items-center gap-4 ">
               <div className="rounded-md shadow">
