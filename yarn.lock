@@ -59,12 +59,12 @@
 
 "@next/swc-linux-x64-gnu@12.2.5":
   version "12.2.5"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.2.5.tgz#83a5e224fbc4d119ef2e0f29d0d79c40cc43887e"
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.2.5.tgz"
   integrity sha512-0szyAo8jMCClkjNK0hknjhmAngUppoRekW6OAezbEYwHXN/VNtsXbfzgYOqjKWxEx3OoAzrT3jLwAF0HdX2MEw==
 
 "@next/swc-linux-x64-musl@12.2.5":
   version "12.2.5"
-  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.2.5.tgz#be700d48471baac1ec2e9539396625584a317e95"
+  resolved "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.2.5.tgz"
   integrity sha512-zg/Y6oBar1yVnW6Il1I/08/2ukWtOG6s3acdJdEyIdsCzyQi4RLxbbhkD/EGQyhqBvd3QrC6ZXQEXighQUAZ0g==
 
 "@next/swc-win32-arm64-msvc@12.2.5":
@@ -79,7 +79,7 @@
 
 "@next/swc-win32-x64-msvc@12.2.5":
   version "12.2.5"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.2.5.tgz"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.2.5.tgz#20fed129b04a0d3f632c6d0de135345bb623b1e4"
   integrity sha512-7h5/ahY7NeaO2xygqVrSG/Y8Vs4cdjxIjowTZ5W6CKoTKn7tmnuxlUc2h74x06FKmbhAd9agOjr/AOKyxYYm9Q==
 
 "@nodelib/fs.scandir@2.1.5":
