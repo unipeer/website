@@ -158,18 +158,21 @@ export default function Nav() {
                   <div class="flex flex-col justify-start items-start gap-8">
                     <a
                       href="/#overview"
+                      onClick={handleScroll}
                       className=" font-normal text-white transition duration-150 ease-in-out"
                     >
                       Overview
                     </a>
                     <a
                       href="/#features"
+                      onClick={handleScroll}
                       className=" font-normal text-white transition duration-150 ease-in-out"
                     >
                       Features
                     </a>
                     <a
                       href="/#faq"
+                      onClick={handleScroll}
                       className=" font-normal text-white  transition duration-150 ease-in-out"
                     >
                       FAQs
