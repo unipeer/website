@@ -1,6 +1,17 @@
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsTwitter, BsGithub } from "react-icons/bs";
 export default function Footer() {
+  const handleScroll = (e) => {
+    e.preventDefault();
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div
       className="bg-[#020423] w-full px-6 py-16 flex flex-col justify-center  items-start md:items-center"
@@ -24,12 +35,14 @@ export default function Footer() {
         </a>
         <a
           href="/#features"
+          onClick={handleScroll}
           className="font-Inter px-2 font-medium text-base text-white-500 transition duration-150 ease-in-out"
         >
           Features
         </a>
         <a
           href="/#faq"
+          onClick={handleScroll}
           className="font-Inter px-2 font-medium text-base text-white-500 transition duration-150 ease-in-out"
         >
           FAQs
