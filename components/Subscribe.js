@@ -36,7 +36,7 @@ export default function Subscribe() {
 
             <button
               type="submit"
-              className="mt-4 md:mt-12 font-Inter md:text-4 px-6 py-4 font-semibold text-white rounded-md bg-primary-500 hover:bg-primary-700 transition ease-in-out duration-150"
+              className="mt-4 md:mt-12 font-Inter md:text-4 px-4 md:px-6 py-3 md:py-4 font-semibold text-white rounded-md bg-primary-500 hover:bg-primary-700 transition ease-in-out duration-150"
             >
               Send me updates
             </button>
