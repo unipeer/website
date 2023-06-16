@@ -6,8 +6,8 @@ export default function IndexPage() {
     <div className=" overflow-hidden u-terms-page">
       <Nav />
       <div className="p-10">
-        <h1>Privacy Policy</h1>
-        <p>
+        <h1 className="font-Jost">Privacy Policy</h1>
+        <p className="font-Inter">
           The App is made available by SmacoTeq PVT LTD (“our”, “us”, “we”,
           “Company”). To provide you the Services, and to ensure that the
           Services are not used for illegally purposes such as money laundering,
@@ -29,17 +29,17 @@ export default function IndexPage() {
 
         <ol>
           <li>
-            <h4 style={{ fontWeight: 500 }}>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
               How do we protect your personal information
             </h4>
-            <p>
+            <p className="font-Inter">
               1.1 We are serious about guarding the security of your personal
               information and use a secure server to store your personal
               information. All information you provide to us is stored on our
               secure servers. Any payment transactions will be encrypted using
               Transport Layer Security technology.
             </p>
-            <p>
+            <p className="font-Inter">
               1.2 As you will know, the transmission of information via the
               internet is not completely secure. Although we will do our best to
               protect your personal data, we cannot guarantee the security of
@@ -48,7 +48,7 @@ export default function IndexPage() {
               procedures and security features to try to prevent unauthorised
               access.
             </p>
-            <p>
+            <p className="font-Inter">
               1.3 We restrict access of your personal information to those
               employees of UniPeer who have a business reason for knowing such
               information. We continuously educate and train our employees about
@@ -59,12 +59,14 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
               Information we may collect from you
             </h4>
-            <p>We may collect and use the following data about you:</p>
-            <p>2.1 Information you give us.</p>
-            <p>
+            <p className="font-Inter">
+              We may collect and use the following data about you:
+            </p>
+            <p className="font-Inter">2.1 Information you give us.</p>
+            <p className="font-Inter">
               (a) You may give us information about you when you sign up to use
               our service, e.g. when you provide us with your personal details,
               such as your name and email address. This also includes
@@ -78,13 +80,13 @@ export default function IndexPage() {
               geographical location, social security number, personal
               description and photograph.
             </p>
-            <p>
+            <p className="font-Inter">
               (b) We may also need additional commercial and/or identification
               information from your e.g. if you send or receive certain
               high-value or high volume transactions or as needed to comply with
               our anti-money laundering obligations under applicable law.
             </p>
-            <p>
+            <p className="font-Inter">
               (c) In providing the personal data of any individual (other than
               yourself) to us during your use of our Services, you promise that
               you have obtained consent from such individual to disclose his/her
@@ -92,23 +94,23 @@ export default function IndexPage() {
               use and disclosure of such personal data, for the purposes set out
               in this Privacy Policy.
             </p>
-            <p>
+            <p className="font-Inter">
               2.2 Information we collect about you. With regard to your use of
               our Services we may automatically collect the following
               information:
             </p>
-            <p>
+            <p className="font-Inter">
               (a) details of the transactions you carry out when using our
               Services, including geographic location from which the transaction
               originates;
             </p>
-            <p>
+            <p className="font-Inter">
               (b) technical information, including the Internet protocol (IP)
               address used to connect your computer to the Internet, your login
               information, browser type and version, time zone setting, browser
               plug-in types and versions, operating system and platform;
             </p>
-            <p>
+            <p className="font-Inter">
               (c) information about your visit, including the full Uniform
               Resource Locators (URL) clickstream to, through and from our
               Website or App (including date and time); products you viewed or
@@ -118,41 +120,41 @@ export default function IndexPage() {
               away from the page and any phone number used to call our Customer
               Support number.
             </p>
-            <p>
+            <p className="font-Inter">
               2.3 Information we receive from other sources. We may receive
               information about you if you use any of the other websites we
               operate or the other services we provide. We are also working
               closely with third parties and may receive information about you
               from them.
             </p>
-            <p>
+            <p className="font-Inter">
               For example:
               <ul>
-                <li>
+                <li className="font-Inter">
                   the banks you use to transfer money to us will provide us with
                   your basic personal information, such as your name and
                   address, as well as your financial information such as your
                   bank account details;
                 </li>
-                <li>
+                <li className="font-Inter">
                   business partners may provide us with your name and address,
                   as well as financial information, such as card payment
                   information;
                 </li>
-                <li>
+                <li className="font-Inter">
                   advertising networks, analytics providers and search
                   information providers may provide us with pseudonymised
                   information about you, such as confirming how you found our
                   website;
                 </li>
-                <li>
+                <li className="font-Inter">
                   credit reference agencies do not provide us with any personal
                   information about yourself, but may be used to corroborate the
                   information you have provided to us.
                 </li>
               </ul>
             </p>
-            <p>
+            <p className="font-Inter">
               2.4 Information from social media networks. If you log in to our
               Services using your social media account (for example, Facebook or
               Google) we will receive relevant information that is necessary to
@@ -171,8 +173,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>Cookies</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              Cookies
+            </h4>
+            <p className="font-Inter">
               3.1 Our Services use cookies to distinguish you from other users.
               This helps us to provide you with a good experience and also
               allows us to improve our Services. For detailed information on the
@@ -181,51 +185,53 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>Uses made of the information</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              Uses made of the information
+            </h4>
+            <p className="font-Inter">
               We use your information in the following ways:
               <ul>
-                <li>
+                <li className="font-Inter">
                   (a) to carry out our obligations relating to your contract
                   with us and to provide you with the information, products and
                   services;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (b) to comply with any applicable legal and/or regulatory
                   requirements;
                 </li>
                 <li>(c) to notify you about changes to our Services;</li>
-                <li>
+                <li className="font-Inter">
                   (d) as part of our efforts to keep our Services safe and
                   secure;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (e). to administer our Services and for internal operations,
                   including troubleshooting, data analysis, testing, research,
                   statistical and survey purposes;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (f) to improve our Services and to ensure that they are
                   presented in the most effective manner;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (g) to measure or understand the effectiveness of advertising
                   we serve and to deliver relevant advertising to you;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (h) to allow you to participate in interactive features of our
                   Services, when you choose to do so;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (i) to provide you with information about other similar goods
                   and services we offer;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (j) to provide you, or permit selected third parties to
                   provide you, with information about goods or services we feel
                   may interest you; or
                 </li>
-                <li>
+                <li className="font-Inter">
                   (k) to combine information we receive from other sources with
                   the information you give to us and information we collect
                   about you. We may use this information and the combined
@@ -236,32 +242,34 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>Disclosure of your information</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              Disclosure of your information
+            </h4>
+            <p className="font-Inter">
               5.1 We may share your information with selected third parties
               including:
             </p>
-            <p>
+            <p className="font-Inter">
               <ul>
-                <li>
+                <li className="font-Inter">
                   (a) affiliates, business partners, suppliers and
                   sub-contractors for the performance and execution of any
                   contract we enter into with them or you;
                 </li>
-                <li>
+                <li className="font-Inter">
                   (b) advertisers and advertising networks solely to select and
                   serve relevant adverts to you and others; and
                 </li>
-                <li>
+                <li className="font-Inter">
                   (c) analytics and search engine providers that assist us in
                   the improvement and optimisation of our site
                 </li>
               </ul>
             </p>
-            <p>
+            <p className="font-Inter">
               5.2 We may disclose your personal information to third parties:
             </p>
-            <p>
+            <p className="font-Inter">
               <ul>
                 <li>
                   (d) in the event that we sell or buy any business or assets,
@@ -296,7 +304,7 @@ export default function IndexPage() {
                 </li>
               </ul>
             </p>
-            <p>
+            <p className="font-Inter">
               5.3 We do not have a published list of all of the third parties
               with whom we share your data with, as this would be heavily
               dependent on your specific use of our Services. However, if you
@@ -305,7 +313,7 @@ export default function IndexPage() {
               request this by writing to support@unipeer.exchange.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>
               Where we store your personal data
             </h4>
@@ -316,7 +324,7 @@ export default function IndexPage() {
               and in accordance with this privacy policy.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>
               Sharing your data outside of the EEA
             </h4>
@@ -331,7 +339,7 @@ export default function IndexPage() {
               parties.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>
               Profiling and Automated Decision Making
             </h4>
@@ -357,7 +365,7 @@ export default function IndexPage() {
               processes have a legal effect on you.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>Data Retention</h4>
             <p>
               9.1 As a regulated financial institution, UniPeer is required by
@@ -371,7 +379,7 @@ export default function IndexPage() {
               relevant law or jurisdiction in which we operate.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>Your rights</h4>
             <p>
               10.1 You have the right to ask us not to contact you for marketing
@@ -402,7 +410,7 @@ export default function IndexPage() {
               policies before you submit any personal data to these websites.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>Access to information</h4>
             <p>
               11.1 Subject to applicable laws, you may have the right to access
@@ -411,7 +419,7 @@ export default function IndexPage() {
               legislation.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>Changes to our privacy policy</h4>
             <p>
               12.1 Any changes we may make to our privacy policy will be posted
@@ -420,7 +428,7 @@ export default function IndexPage() {
               privacy policy.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>Contact</h4>
             <p>
               13.1 Questions, comments and requests regarding this privacy
