@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Subscribe() {
   return (
-    <div
-      className="relative max-w-[924px] my-16  md:mb-20 mx-auto "
-      id="features"
-    >
+    <div className="relative max-w-[924px] my-16  md:mb-20 mx-auto ">
       <div className="bg-primary-100 mx-5 flex flex-col-reverse justify-center items-center md:flex-row rounded-2xl p-4 sm:p-8 md:p-12 ">
         <div className="w-full flex flex-col justify-center items-center md:justify-start  md:items-start sm:w-8/12">
           <h2 className="font-Jost font-bold text-dark-900 text-2xl flex">
