@@ -49,7 +49,7 @@ export default function Footer() {
 
       <div className="w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-between items-start md:items-center gap-8  md:gap-0">
         <div className="">
-          <p className="font-Inter text-left md:text-lg font-bold text-base">
+          <p className="font-Inter text-left md:text-[14px] font-normal text-[14px]">
             &copy; {new Date().getFullYear()} Unipeer. All rights reserved
           </p>
         </div>

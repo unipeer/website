@@ -16,53 +16,53 @@ export default function Nav() {
               <a className="w-8/12" href="/">
                 <img className="md:w-48" src="assets/images/Unipeer_Logo.png" />
               </a>
-              <div className=" md:hidden block w-4/12 flex items-center justify-end ">
+              <div className=" md:hidden w-4/12 flex items-center justify-end ">
                 <button
                   type="button"
                   onClick={() => setIsOpen(!isOpen)}
-                  className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                  className="inline-flex items-center justify-center p-2 rounded-md text-gray-400"
                   id="main-menu"
                   aria-label="Main menu"
-                  aria-haspopup="true"
+                  // aria-haspopup="true"
                 >
                   <img
-                    className="navicon w-[32px] h-[32px] "
+                    className="navicon w-[24px] h-[24px] "
                     src="assets/images/menu-alt-1.svg"
                     alt=""
                   />
                 </button>
               </div>
             </div>
-            <div className="w-10/12 hidden md:block ">
-              <div className="  flex flex-row justify-between items-center ">
-                <div className="w-8/12 ">
+            <div className="w-10/12 hidden md:flex flex-row items-center justify-between">
+              <div className="w-full  flex flex-row justify-between items-center ">
+                <div className="flex">
                   <a
                     href="/#overview"
-                    className="  font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-medium transition duration-150 ease-in-out"
+                    className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     Overview
                   </a>
                   <a
                     href="/#features"
-                    className="  font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-medium transition duration-150 ease-in-out"
+                    className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     Features
                   </a>
                   <a
                     href="/#faq"
-                    className="  font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-medium transition duration-150 ease-in-out"
+                    className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     FAQs
                   </a>
                   <a
                     href="https://docs.unipeer.exchange"
                     target="https://docs.unipeer.exchange"
-                    className="  font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-medium transition duration-150 ease-in-out"
+                    className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     Docs
                   </a>
                 </div>
-                <div className="w-4/12 rounded-md float-right ">
+                <div className="flex">
                   <a
                     href="https://app.unipeer.exchange"
                     style={{}}
@@ -89,11 +89,11 @@ export default function Nav() {
         {(ref) => (
           <div
             ref={ref}
-            className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+            className="absolute top-0 inset-x-0 transition transform origin-top-right md:hidden"
           >
             <div className="rounded-lg shadow-md">
               <div
-                className="rounded-lg bg-white shadow-xs overflow-hidden"
+                className="bg-dark-900 overflow-hidden"
                 role="menu"
                 aria-orientation="vertical"
                 aria-labelledby="main-menu"
@@ -102,7 +102,7 @@ export default function Nav() {
                   <div>
                     <img
                       className="md:w-32"
-                      src="assets/images/Unipeer_Logo.png"
+                      src="assets/images/Unipeer_Logo_white.svg"
                     />
                     {/* <img
                       className="h-8 w-auto"
@@ -114,7 +114,7 @@ export default function Nav() {
                     <button
                       type="button"
                       onClick={() => setIsOpen(!isOpen)}
-                      className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                      className="inline-flex items-center justify-center p-2 rounded-md text-gray-400"
                       aria-label="Close menu"
                     >
                       <svg
@@ -133,7 +133,7 @@ export default function Nav() {
                     </button>
                   </div>
                 </div>
-                <div className="px-6 pt-2 pb-3">
+                <div className="px-6 pt-8 pb-10">
                   {/* <a
                     href="/#features"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
@@ -141,29 +141,29 @@ export default function Nav() {
                   >
                     Features
                   </a> */}
-                  <div class="flex flex-col justify-start items-start gap-6">
+                  <div class="flex flex-col justify-start items-start gap-8">
                     <a
                       href="/#overview"
-                      className=" font-medium text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out"
+                      className=" font-normal text-white transition duration-150 ease-in-out"
                     >
                       Overview
                     </a>
                     <a
                       href="/#features"
-                      className=" font-medium text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out"
+                      className=" font-normal text-white transition duration-150 ease-in-out"
                     >
                       Features
                     </a>
                     <a
                       href="/#faq"
-                      className=" font-medium text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out"
+                      className=" font-normal text-white  transition duration-150 ease-in-out"
                     >
                       FAQs
                     </a>
                     <a
                       href="https://docs.unipeer.exchange"
                       target="https://docs.unipeer.exchange"
-                      className=" font-medium text-gray-800 hover:text-gray-900 transition duration-150 ease-in-out"
+                      className=" font-normal text-white transition duration-150 ease-in-out"
                     >
                       Docs
                     </a>

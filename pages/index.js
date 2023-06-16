@@ -3,10 +3,11 @@ import HeroSection from "../components/HeroSection";
 import Footer from "./../components/Footer";
 import CTAOne from "../components/CTAOne";
 import CTATwo from "../components/CTATwo";
-import FAQ from "../components/FAQ";
 import Subscribe from "../components/Subscribe";
 import Head from "next/head";
 import FeaturesNew from "../components/FeaturesNew";
+import HeroSectionNew from "../components/HeroSectionNew";
+import FAQ from "../components/FAQ";
 
 export default function IndexPage() {
   return (
@@ -18,7 +19,7 @@ export default function IndexPage() {
         <div className="relative max-w-screen-xl mx-auto">
           <Nav />
         </div>
-        <HeroSection />
+        <HeroSectionNew />
         <CTAOne />
         <CTATwo />
         <FeaturesNew />

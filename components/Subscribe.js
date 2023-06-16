@@ -2,15 +2,18 @@ import React from "react";
 
 export default function Subscribe() {
   return (
-    <div className="relative w-10/12 my-16  md:mb-10 mx-auto " id="features">
-      <div className="bg-[#eff1ff] py-6  flex flex-col-reverse justify-center items-center md:flex-row rounded-2xl md:px-8 ">
+    <div
+      className="relative max-w-[924px] my-16  md:mb-20 mx-auto "
+      id="features"
+    >
+      <div className="bg-primary-100 flex flex-col-reverse justify-center items-center md:flex-row rounded-2xl md:p-12 ">
         <div className="w-8/12 flex flex-col justify-center items-center md:justify-start  md:items-start ">
-          <h2 className="font-Jost text-[#020423] text-4xl hidden md:block">
+          <h2 className="font-Jost font-bold text-dark-900 text-2xl hidden md:flex">
             Subscribe for updates from us
           </h2>
-          <h2 className=" font-Jost text-[#020423] w-full text-xl md:text-xl md:hidden block">
+          {/* <h2 className=" font-Jost text-[#020423] w-full text-xl md:text-xl md:hidden block">
             Subscribe for updates
-          </h2>
+          </h2> */}
           <form
             method="POST"
             className="py-4 flex flex-col justify-center items-center md:justify-start md:items-start"
@@ -25,13 +28,16 @@ export default function Subscribe() {
               name="email"
               placeholder="Your email address"
               required={true}
-              className="drop-shadow-xl  block md:w-[25rem] px-6 md:px-4 py-3 text-base appearance-none border border-gray-300  bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+              className="font-Inter text-dark-200  block md:w-[25rem] px-6 md:px-4 py-3 text-base appearance-none border border-dark-100  bg-white rounded-md placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300"
+              style={{
+                boxShadow: "0 6px 15px 2px rgba(0, 0, 0, 0.06)",
+              }}
             />
 
             <button
               type="submit"
               style={{ backgroundColor: "#fe5e44", color: "white" }}
-              className=" font-Inter py-3 md:py-5 w-full md:w-8/12 px-6 md:px-4 mt-6 relative   block   border-transparent  text-base md:text-xl font-semibold leading-snug  text-white rounded-md shadow-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500 transition ease-in-out duration-150"
+              className="mt-12 font-Inter md:text-4 px-6 py-4 font-semibold text-white rounded-md hover:bg-primary-700 transition ease-in-out duration-150"
             >
               Send me updates
             </button>
