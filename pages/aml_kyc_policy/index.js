@@ -6,8 +6,8 @@ export default function IndexPage() {
     <div className=" overflow-hidden u-terms-page">
       <Nav />
       <div className="p-10">
-        <h1>{`AML & KYC Policy`}</h1>
-        <p>
+        <h1 className="font-Jost">{`AML & KYC Policy`}</h1>
+        <p className="font-Inter">
           Know-Your-Customer and Anti-Money Laundering policy (“KYC & AML
           Policy” or “Policy”) sets out our commitments against money
           laundering, financing of terrorism, and related illegal activities. It
@@ -26,7 +26,7 @@ export default function IndexPage() {
         </p>
 
         <ol>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>DEFINITIONS</h4>
             <p>
               (i) In case of companies, the natural person who has ownership of
@@ -61,7 +61,7 @@ export default function IndexPage() {
               to the Prevention of Money Laundering Act, 2002.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>POLICY CHANGES</h4>
             <p>
               We may change and update this Policy from time to time. Such
@@ -71,7 +71,7 @@ export default function IndexPage() {
               whenever you access UniPeer.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>YOUR OBLIGATIONS</h4>
             <p>
               3.1. You must ensure that any personal information and/or
@@ -84,7 +84,7 @@ export default function IndexPage() {
               of such juridical person.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>PURPOSE OF THIS POLICY</h4>
             <p>
               In order to mitigate its risks relating to money laundering and
@@ -97,7 +97,7 @@ export default function IndexPage() {
               and (iv). Transaction Monitoring Terms.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>CUSTOMER ACCEPTANCE TERMS</h4>
             <p>
               5.1. The Company will at the time of opening a UniPeer Account
@@ -123,7 +123,7 @@ export default function IndexPage() {
               satisfaction.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>RISK MANAGEMENT PROCEDURE</h4>
             <p>
               We will categorize our users, including you, into low, medium or
@@ -143,7 +143,7 @@ export default function IndexPage() {
               Suspicious Transaction.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>USER IDENTIFICATION PROCEDURE</h4>
             <p>
               7.1. We will, during activation of user Accounts or at any time
@@ -170,7 +170,7 @@ export default function IndexPage() {
               Services may be processed only after such is completed.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>TRANSACTION MONITORING TERMS</h4>
             <p>
               All transactions executed and/or attempted to be executed on the
@@ -191,7 +191,7 @@ export default function IndexPage() {
               (Transaction Monitoring Terms).
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>MAINTENANCE OF RECORDS</h4>
             <p>
               The Company will maintain and preserve the following information
@@ -204,7 +204,7 @@ export default function IndexPage() {
               the date of termination of such UniPeer Account.
             </p>
           </li>
-          <li>
+          <li className="font-Inter">
             <h4 style={{ fontWeight: 500 }}>
               COMPLIANCE, DISCLOSURE, AND NOTICES
             </h4>
