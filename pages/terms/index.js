@@ -6,8 +6,8 @@ export default function IndexPage() {
     <div className=" overflow-hidden u-terms-page">
       <Nav />
       <div className="p-10">
-        <h1>Terms Of Service</h1>
-        <p>
+        <h1 className="font-Jost">Terms Of Service</h1>
+        <p className="font-Inter">
           We at SmacoTeq PVT. Ltd. (“our”, “us”, “we”, “Company”) have developed
           the UniPeer web application (“UniPeer”, “Web App”) to enable easy
           purchase and sale of Cryptocurrencies by you(“Users”, “you”, “your”).
@@ -26,8 +26,8 @@ export default function IndexPage() {
           stop using the App immediately. We also encourage you to contact our
           Grievance Team to discuss your disagreements.
         </p>
-        <h3>RISK ALERT</h3>
-        <p>
+        <h3 className="font-Jost">RISK ALERT</h3>
+        <p className="font-Inter">
           Trading of crypto assets may result in total loss of your investment.
           Sale and purchase of crypto assets such as ETHEREUM involves a high
           degree of risk to your capital. The value of your cryptocurrency
@@ -42,8 +42,10 @@ export default function IndexPage() {
         </p>
         <ol>
           <li>
-            <h4 style={{ fontWeight: 500 }}>SCOPE OF SERVICES</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              SCOPE OF SERVICES
+            </h4>
+            <p className="font-Inter">
               i. Services we provide: UniPeer provides the following services to
               you (“**Services**”): a. place orders for purchase of
               Cryptocurrency. To use UniPeer and avail our Services, you must
@@ -68,8 +70,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>PROHIBITED USE OF PLATFORM</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              PROHIBITED USE OF PLATFORM
+            </h4>
+            <p className="font-Inter">
               By accessing and using UniPeer, you represent that you are not on
               any trade or economic sanctionslists or a politically exposed
               person. You shall not use the UniPeer Account to engage in any of
@@ -93,8 +97,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>YOUR OBLIGATIONS</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              YOUR OBLIGATIONS
+            </h4>
+            <p className="font-Inter">
               i. Duty to provide true information: The information you provide
               is used by us to determine your eligibility for using UniPeer. It
               is critical that all information you provide to us is true,
@@ -127,7 +133,7 @@ export default function IndexPage() {
               You should also ensure that you are able to use UniPeer with your
               preferred bank account.
             </p>
-            <p>
+            <p className="font-Inter">
               We will try to make sure our Services are available to you when
               you need them. However, we do not guarantee that our Services will
               always be available or be uninterrupted. We may suspend, withdraw,
@@ -144,10 +150,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
               ADVERTISEMENTS AND THIRD-PARTY CONTENT
             </h4>
-            <p>
+            <p className="font-Inter">
               We may, from time to time, display offers and advertisements from
               third parties on UniPeer. We may also share content and reading
               material regarding sale, purchase and holding of Bitcoin on
@@ -159,8 +165,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>DISCLAIMERS AND LIMITATIONS</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              DISCLAIMERS AND LIMITATIONS
+            </h4>
+            <p className="font-Inter">
               UniPeer is only a trade facilitator. Our responsibility is limited
               to enable a purchase and sale of Bitcoins at rates agreed to by
               you. These trade services are offered in lieu of a fee. We accept
@@ -186,8 +194,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>INTELLECTUAL PROPERTY</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              INTELLECTUAL PROPERTY
+            </h4>
+            <p className="font-Inter">
               i. All of the content on UniPeer, including, all images,
               illustrations, graphics, video clips, text, reports generated,
               trademarks, as well as its underlying codes and algorithm
@@ -204,8 +214,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>TERMINATION</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              TERMINATION
+            </h4>
+            <p className="font-Inter">
               i. Termination by us: If we decide to terminate your UniPeer
               Account for any reason, we will inform you of such decision on the
               App or by email. We will not be liable for any losses or damages
@@ -218,8 +230,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>OPT-OUT REQUEST</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              OPT-OUT REQUEST
+            </h4>
+            <p className="font-Inter">
               In case you want to opt-out of receiving notifications,
               promotional emails and messages, updates etc. from us, you may
               write to us informing the same at: support@unipeer.exchange.
@@ -228,18 +242,22 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>GRIEVANCE TEAM</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              GRIEVANCE TEAM
+            </h4>
+            <p className="font-Inter">
               In order to address any questions or grievances that you may have
               regarding the use of App or Services, please contact our grievance
               team (“**Grievance Team**”) in the following manner:
             </p>
-            <p>Email: support@unipeer.exchange</p>
+            <p className="font-Inter">Email: support@unipeer.exchange</p>
           </li>
 
           <li>
-            <h4 style={{ fontWeight: 500 }}>FORCE MAJEURE</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              FORCE MAJEURE
+            </h4>
+            <p className="font-Inter">
               Without limiting the foregoing, under no circumstances shall we be
               held liable for any damage, loss, loss of services of UniPeer, due
               to deficiency in provision of the Services resulting directly or
@@ -251,8 +269,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>TAXES</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              TAXES
+            </h4>
+            <p className="font-Inter">
               You understand that certain taxes may be applicable on the sale
               and purchase of Bitcoins. You alone will be required to determine
               your tax liability and payment of any taxes that may arise from
@@ -266,8 +286,10 @@ export default function IndexPage() {
             </p>
           </li>
           <li>
-            <h4 style={{ fontWeight: 500 }}>GENERAL PROVISIONS</h4>
-            <p>
+            <h4 className="font-Inter" style={{ fontWeight: 500 }}>
+              GENERAL PROVISIONS
+            </h4>
+            <p className="font-Inter">
               You understand that certain taxes may be applicable on the sale
               and purchase of Bitcoins. You alone will be required to determine
               your tax liability and payment of any taxes that may arise from

@@ -41,11 +41,14 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <div className="relative max-w-screen-xl mx-auto" id="faq">
+    <div
+      className="relative px-10 xl:px-0 xl:max-w-6xl 2xl:max-w-7xl mx-auto"
+      id="faq"
+    >
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl py-24 sm:py-32 lg:py-22">
+        <div className="mx-auto max-w-7xl py-24 sm:py-16 lg:py-22">
           <div className="mx-auto divide-y divide-gray-900/10">
-            <h2 className="text-[40px] font-bold text-gray-900 font-Jost">
+            <h2 className="text-[40px] font-bold text-gray-900 font-Jost text-center md:text-left">
               Frequently asked questions
             </h2>
             <div className="mt-10 space-y-6 divide-y divide-gray-900/10">
@@ -54,11 +57,11 @@ export default function FAQ() {
                   {({ open }) => (
                     <>
                       <div>
-                        <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                          <span className="font-Inter font-normal text-[20px] text-dark-600">
+                        <Disclosure.Button className="flex w-full items-center justify-between text-left text-gray-900">
+                          <span className="w-fit font-Inter font-normal text-[18px] xl:text-[20px] text-dark-600 pr-4">
                             {faq.question}
                           </span>
-                          <span className="ml-6 flex h-7 items-center">
+                          <div className="flex w-[32px] h-[32px] justify-center items-center">
                             {open ? (
                               <img
                                 src="assets/images/chevron-down.svg"
@@ -72,7 +75,7 @@ export default function FAQ() {
                                 alt=""
                               />
                             )}
-                          </span>
+                          </div>
                         </Disclosure.Button>
                       </div>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
