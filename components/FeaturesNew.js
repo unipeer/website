@@ -13,7 +13,12 @@ const FeaturesNew = () => {
         {/* sub1 */}
         <div className="flex flex-col justify-center items-center gap-8 md:gap-4 lg:gap-8">
           <div className="w-11/12 sm:w-10/12 mx-auto flex flex-col  md:flex-row justify-center items-center gap-8 md:gap-4 relative z-10">
-            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+            <div
+              style={{
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+              }}
+              className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8"
+            >
               <img
                 className="hidden md:block absolute -top-12 -left-12 w-20 h-20 -z-10"
                 src="assets/images/Supporting_element.svg"
@@ -34,7 +39,12 @@ const FeaturesNew = () => {
                 </p>
               </div>
             </div>
-            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+            <div
+              style={{
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+              }}
+              className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8"
+            >
               <div className="flex flex-col justify-center">
                 <img src="assets/images/Dispute.svg" className="w-18" alt="" />
               </div>
@@ -58,7 +68,12 @@ const FeaturesNew = () => {
           alt=""
         /> */}
           <div className="w-11/12 sm:w-10/12 mx-auto flex flex-col  md:flex-row justify-center items-center gap-8 md:gap-4 relative z-10">
-            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+            <div
+              style={{
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+              }}
+              className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8"
+            >
               <div className="flex flex-col justify-center">
                 <img src="assets/images/No_KYC.svg" className="w-18" alt="" />
               </div>
@@ -74,7 +89,12 @@ const FeaturesNew = () => {
                 </p>
               </div>
             </div>
-            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+            <div
+              style={{
+                boxShadow: "0 4px 10px 0 rgba(0, 0, 0, 0.05)",
+              }}
+              className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8"
+            >
               <div className="flex flex-col justify-center">
                 <img src="assets/images/Oracles.svg" className="w-18" alt="" />
               </div>

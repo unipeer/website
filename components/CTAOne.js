@@ -4,7 +4,7 @@ export default function CTAOne() {
   return (
     <div id="overview" className="bg-white">
       <div>
-        <section className="flex flex-col md:flex-row justify-center items-center gap-2 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <section className="flex flex-col md:flex-row justify-center items-start gap-2 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className="md:w-6/12  sm:text-center lg:text-left">
             <h2 className="font-Jost text-[32px] leading-9   md:text-[40px] text-left md:leading-10 font-bold sm:leading-none md:text-5xl text-dark-900">
               Swap fiat to crypto and vice-versa
