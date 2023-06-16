@@ -42,11 +42,11 @@ const faqs = [
 export default function FAQ() {
   return (
     <div
-      className="relative px-10 xl:px-0 xl:max-w-6xl 2xl:max-w-7xl mx-auto"
+      className="relative px-5 md:px-20 xl:px-0 xl:max-w-6xl 2xl:max-w-7xl mx-auto"
       id="faq"
     >
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl py-24 sm:py-16 lg:py-22">
+        <div className="mx-auto max-w-6xl py-[56px] sm:py-16 lg:py-22">
           <div className="mx-auto divide-y divide-gray-900/10">
             <h2 className="text-[32px] md:text-[40px] font-bold text-gray-900 font-Jost text-left">
               Frequently asked questions

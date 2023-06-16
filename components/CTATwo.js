@@ -4,7 +4,7 @@ export default function CTATwo() {
   return (
     <div>
       <div>
-        <section className="w-full mx-auto flex flex-col-reverse md:flex-row justify-center items-center gap-2 mt-10 mb-10 md:mb-20 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <section className="w-full mx-auto flex flex-col-reverse md:flex-row justify-center items-start gap-2 mt-10 mb-10 md:mb-20 max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className="md:w-6/12 mx-auto ">
             <img
               className="my-6 md:my-0"

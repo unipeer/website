@@ -45,7 +45,7 @@ export default function Subscribe() {
         </div>
         <div className="w-4/12 flex flex-row justify-center items-center">
           <img
-            className="md:w-[145px]"
+            className="md:w-[183px]"
             src="assets/images/Subscribe.svg"
             alt=""
           />
