@@ -3,7 +3,7 @@ import React from "react";
 const FeaturesNew = () => {
   return (
     <>
-      <section className="bg-[#eff1ff] pb-20 pt-20 relative">
+      <section id="features" className="bg-[#eff1ff] pb-20 pt-20 relative">
         <div className="">
           <h2 className=" font-Jost px-4 sm:px-16 text-left md:text-center lg:text-4xl text-4xl  py-6 font-bold text-[#111827] ">
             Why Choose Unipeer?
