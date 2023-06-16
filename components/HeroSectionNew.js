@@ -3,23 +3,23 @@ import React from "react";
 const HeroSectionNew = () => {
   return (
     <>
-      <div className="flex flex-col items-center py-18 bg-white" style={{}}>
-        <section className="flex flex-col justify-center items-center gap-18">
-          <div className="flex flex-col items-center justify-center w-full">
+      <div className="flex flex-col items-center py-18 bg-white">
+        <section className="flex flex-col justify-center items-center gap-12 lg:gap-18">
+          <div className="flex flex-col items-center justify-center w-[90%] lg:w-full">
             <div>
-              <h2 className="font-bold font-Jost text-12 text-dark-900">
+              <h2 className="font-bold font-Jost text-12 text-dark-900 text-center leading-tight">
                 Trustless <span className="text-dark-400">P2P</span> exchange
                 <br />
                 {/* <span className="font-Jost text-3xl tracking-tight leading-10 font-extrabold text-[#111827]  sm:text-4xl sm:leading-none md:text-5xl"></span> */}
               </h2>
             </div>
             <div>
-              <p className="font-Inter text-[20px] text-dark-700 font-normal">
+              <p className="font-Inter text-[20px] text-dark-700 font-normal text-center">
                 Swap fiat-to-crypto and back via peer-to-peer in your local
                 currency.
               </p>
             </div>
-            <div className="mt-5 sm:mt-8 flex flex-row justify-start items-center gap-4">
+            <div className="mt-5 sm:mt-8 flex flex-row justify-center items-center gap-4 flex-wrap">
               <div className="rounded-lg">
                 <a
                   href="https://app.unipeer.exchange"
@@ -40,7 +40,7 @@ const HeroSectionNew = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:flex-row md:justify-end md:items-end">
+          <div className="flex items-start md:flex-row md:justify-end md:items-end w-[95%] lg:w-full">
             <img
               className="pt-12 md:pt-0"
               src="assets/images/hero-mockup.webp"

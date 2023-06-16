@@ -11,7 +11,7 @@ export default function Nav() {
         style={{ padding: "20px" }}
       >
         <nav className="w-full relative flex items-center justify-between sm:h-10 lg:justify-start">
-          <div className="w-full  flex items-center justify-between">
+          <div className="w-full flex items-center justify-between">
             <div className="w-full md:w-2/12 flex items-center justify-between">
               <a className="w-8/12" href="/">
                 <img className="md:w-48" src="assets/images/Unipeer_Logo.png" />
@@ -79,12 +79,12 @@ export default function Nav() {
 
       <Transition
         show={isOpen}
-        enter="duration-150 ease-out"
-        enterFrom="opacity-0 scale-95"
-        enterTo="opacity-100 scale-100"
-        leave="duration-100 ease-in"
-        leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
+        enter="transition-opacity duration-75"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-150"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
       >
         {(ref) => (
           <div
@@ -98,7 +98,7 @@ export default function Nav() {
                 aria-orientation="vertical"
                 aria-labelledby="main-menu"
               >
-                <div className="px-5 pt-4 flex items-center justify-between">
+                <div className="px-6 py-5 flex items-center justify-between">
                   <div>
                     <img
                       className="md:w-32"

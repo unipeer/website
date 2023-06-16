@@ -6,7 +6,7 @@ export default function Subscribe() {
       className="relative max-w-[924px] my-16  md:mb-20 mx-auto "
       id="features"
     >
-      <div className="bg-primary-100 flex flex-col-reverse justify-center items-center md:flex-row rounded-2xl md:p-12 ">
+      <div className="bg-primary-100 flex flex-col-reverse justify-center items-center md:flex-row rounded-2xl p-4 sm:p-8 md:p-12 ">
         <div className="w-8/12 flex flex-col justify-center items-center md:justify-start  md:items-start ">
           <h2 className="font-Jost font-bold text-dark-900 text-2xl hidden md:flex">
             Subscribe for updates from us
@@ -36,8 +36,7 @@ export default function Subscribe() {
 
             <button
               type="submit"
-              style={{ backgroundColor: "#fe5e44", color: "white" }}
-              className="mt-12 font-Inter md:text-4 px-6 py-4 font-semibold text-white rounded-md hover:bg-primary-700 transition ease-in-out duration-150"
+              className="mt-4 md:mt-12 font-Inter md:text-4 px-6 py-4 font-semibold text-white rounded-md bg-primary-500 hover:bg-primary-700 transition ease-in-out duration-150"
             >
               Send me updates
             </button>
