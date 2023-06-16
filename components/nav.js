@@ -4,6 +4,17 @@ import { Transition } from "@headlessui/react";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleScroll = (e) => {
+    e.preventDefault();
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div
@@ -38,18 +49,21 @@ export default function Nav() {
                 <div className="flex">
                   <a
                     href="/#overview"
+                    onClick={handleScroll}
                     className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     Overview
                   </a>
                   <a
                     href="/#features"
+                    onClick={handleScroll}
                     className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     Features
                   </a>
                   <a
                     href="/#faq"
+                    onClick={handleScroll}
                     className="font-Inter ml-8 font-xl text-[#0E144A] hover:text-gray-900 font-regular transition duration-150 ease-in-out"
                   >
                     FAQs
