@@ -13,7 +13,7 @@ export default function CTATwo() {
             />
           </div>
           <div className="md:w-6/12 mx-auto sm:text-center lg:text-left">
-            <h2 className="font-Jost text-[40px] text-left leading-10 font-bold sm:leading-none md:text-5xl text-dark-900">
+            <h2 className="font-Jost text-[32px] leading-9   md:text-[40px] text-left md:leading-10 font-bold sm:leading-none md:text-5xl text-dark-900">
               Onchain dispute resolution
             </h2>
             <p className=" font-Inter text-left mt-3 text-xl text-dark-900 sm:mt-5 sm:text-xl sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">

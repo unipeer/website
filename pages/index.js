@@ -16,7 +16,7 @@ export default function IndexPage() {
         <title>Unipeer</title>
       </Head>
       <div className=" overflow-hidden">
-        <div className="relative max-w-screen-xl mx-auto">
+        <div className="w-full border-b">
           <Nav />
         </div>
         <HeroSectionNew />

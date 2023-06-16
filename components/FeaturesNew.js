@@ -5,15 +5,15 @@ const FeaturesNew = () => {
     <>
       <section className="bg-[#eff1ff] pb-20 pt-20 relative">
         <div className="">
-          <h2 className=" font-Jost px-2 sm:px-0 md:pl-6 lg:pl-0 text-center md:text-left lg:text-4xl text-4xl lg:text-center py-0 md:py-6 font-bold text-[#111827] ">
+          <h2 className=" font-Jost px-4 sm:px-16 text-left md:text-center lg:text-4xl text-4xl  py-6 font-bold text-[#111827] ">
             Why Choose Unipeer?
           </h2>
         </div>
 
         {/* sub1 */}
         <div className="flex flex-col justify-center items-center gap-8 md:gap-4 lg:gap-8">
-          <div className="w-10/12 mx-auto flex flex-col  md:flex-row justify-center items-center gap-8 md:gap-4 relative z-10 mt-10">
-            <div className="relative flex flex-col justify-center max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+          <div className="w-11/12 sm:w-10/12 mx-auto flex flex-col  md:flex-row justify-center items-center gap-8 md:gap-4 relative z-10">
+            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
               <img
                 className="hidden md:block absolute -top-12 -left-12 w-20 h-20 -z-10"
                 src="assets/images/Supporting_element.svg"
@@ -34,7 +34,7 @@ const FeaturesNew = () => {
                 </p>
               </div>
             </div>
-            <div className="relative flex flex-col justify-center max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
               <div className="flex flex-col justify-center">
                 <img src="assets/images/Dispute.svg" className="w-18" alt="" />
               </div>
@@ -57,8 +57,8 @@ const FeaturesNew = () => {
           src="assets/images/Supporting_element.svg"
           alt=""
         /> */}
-          <div className=" w-10/12 mx-auto flex flex-col md:flex-row justify-center items-center mb-8 gap-8 md:gap-4 relative z-10">
-            <div className="relative flex flex-col justify-center max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+          <div className="w-11/12 sm:w-10/12 mx-auto flex flex-col  md:flex-row justify-center items-center gap-8 md:gap-4 relative z-10">
+            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
               <div className="flex flex-col justify-center">
                 <img src="assets/images/No_KYC.svg" className="w-18" alt="" />
               </div>
@@ -74,7 +74,7 @@ const FeaturesNew = () => {
                 </p>
               </div>
             </div>
-            <div className="relative flex flex-col justify-center max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
+            <div className="relative flex flex-col justify-center max-w-full md:max-w-[544px] h-auto sm:h-[400px] md:h-[450px] xl:h-[334px] bg-white p-8 md:px-8 md:py-4 lg:p-10  w-full  lg:w-6/12 lg:mr-5 rounded-2xl gap-8">
               <div className="flex flex-col justify-center">
                 <img src="assets/images/Oracles.svg" className="w-18" alt="" />
               </div>

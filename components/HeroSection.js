@@ -37,11 +37,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="md:w-6/12 flex md:flex-row md:justify-end md:items-end">
-            <img
-              className="pt-12 md:pt-0"
-              src="assets/images/landing_Illustration.png"
-              alt=""
-            />
+            <img className="pt-12 md:pt-0" src="Mockup.svg" alt="" />
           </div>
         </section>
       </div>

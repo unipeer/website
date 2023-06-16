@@ -48,7 +48,7 @@ export default function FAQ() {
       <div className="bg-white">
         <div className="mx-auto max-w-7xl py-24 sm:py-16 lg:py-22">
           <div className="mx-auto divide-y divide-gray-900/10">
-            <h2 className="text-[40px] font-bold text-gray-900 font-Jost text-center md:text-left">
+            <h2 className="text-[32px] md:text-[40px] font-bold text-gray-900 font-Jost text-left">
               Frequently asked questions
             </h2>
             <div className="mt-10 space-y-6 divide-y divide-gray-900/10">

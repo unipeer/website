@@ -7,7 +7,7 @@ export default function Nav() {
   return (
     <>
       <div
-        className="relative pt-6 px-4 sm:px-6 lg:px-8 border-b md:border-0"
+        className="relative max-w-screen-xl mx-auto pt-6 px-4 sm:px-6 lg:px-8"
         style={{ padding: "20px" }}
       >
         <nav className="w-full relative flex items-center justify-between sm:h-10 lg:justify-start">
