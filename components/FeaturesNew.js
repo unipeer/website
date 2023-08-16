@@ -79,13 +79,12 @@ const FeaturesNew = () => {
               </div>
               <div className="flex flex-col justify-center">
                 <h2 className=" font-Inter text-dark-900 text-5 font-semibold ">
-                  No KYC
+                  Zero Knowledge KYC
                 </h2>
                 <p className="font-Inter text-dark-900 text-4 font-normal -mt-2">
-                  Since Unipeer is a non-custodial swapping protocol similar to
-                  Uniswap, there’s no need for KYC or collecting personal
-                  information of users. Non-custody of user funds is enabled by
-                  our escrow smart contracts.
+                  We use zero-knowledge proofs to keep our uses safe while
+                  upholding their privacy. With zkKYC we don't hold any PII,
+                  only peers can request each others personal info in cases of dispute.
                 </p>
               </div>
             </div>
