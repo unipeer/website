@@ -1,43 +1,28 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
+import renderHTML from 'react-render-html';
 
 const faqs = [
   {
     question: "How many crypto currencies do you support on the app?",
-    answer: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+    answer: `We only support stablecoins of the local currency in the regions we are operating in. This helps
+             us avoid exchange rate issues even at low liquidity and enable low friction on-boarding of users.
+             You can find the latest list of supported coins on the dapp.`,
   },
   {
     question:
-      "Lorem ipsum dolor sit amet. Sed minus reiciendis est tempore facilis et laboriosam ",
+      "What are payment policies?",
     answer:
-      "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+      `Payment policies are documents that govern the rules for dispute resolution in cases of payment issues or fraud by either party.
+      See our docs for more details.`,
   },
   {
     question:
-      "Lorem ipsum dolor sit amet. Sed minus reiciendis est tempore facilis et laboriosam ",
-    answer: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+      "How do I get started?",
+    answer: `See our Getting Started guide here: <a href="https://docs.unipeer.exchange/start/">https://docs.unipeer.exchange/start/</a>`,
   },
 ];
-
-// function AccordionIcon() {
-//   return (
-//     <>
-//       {" "}
-//       <img
-//         src="assets/images/chevron-down.svg"
-//         className="w-[32px] h-[32px]"
-//         alt=""
-//       />
-//     </>
-//   );
-// }
 
 export default function FAQ() {
   return (
@@ -80,7 +65,7 @@ export default function FAQ() {
                       </div>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
                         <p className="font-Inter font-normal text-[17px] text-dark-500">
-                          {faq.answer}
+                          {renderHTML(faq.answer)}
                         </p>
                       </Disclosure.Panel>
                     </>
