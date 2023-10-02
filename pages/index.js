@@ -14,6 +14,7 @@ export default function IndexPage() {
     <>
       <Head>
         <title>Unipeer</title>
+        <script defer data-domain="unipeer.exchange" src="https://plausible.8bitlabs.tech/js/script.js"></script>
       </Head>
       <div className=" overflow-hidden">
         <div className="w-full border-b">

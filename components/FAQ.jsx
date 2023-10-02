@@ -1,7 +1,5 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
-import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
-import renderHTML from 'react-render-html';
 
 const faqs = [
   {
@@ -20,7 +18,7 @@ const faqs = [
   {
     question:
       "How do I get started?",
-    answer: `See our Getting Started guide here: <a href="https://docs.unipeer.exchange/start/">https://docs.unipeer.exchange/start/</a>`,
+    answer: `See our documentation to learn more at https://docs.unipeer.exchange/start`,
   },
 ];
 
@@ -65,7 +63,7 @@ export default function FAQ() {
                       </div>
                       <Disclosure.Panel as="dd" className="mt-2 pr-12">
                         <p className="font-Inter font-normal text-[17px] text-dark-500">
-                          {renderHTML(faq.answer)}
+                          {faq.answer}
                         </p>
                       </Disclosure.Panel>
                     </>
