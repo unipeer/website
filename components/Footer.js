@@ -63,7 +63,7 @@ export default function Footer() {
       <div className="w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-between items-start md:items-center gap-8  md:gap-0">
         <div className="">
           <p className="font-Inter text-left md:text-[14px] font-normal text-[14px]">
-            &copy; {new Date().getFullYear()} Unipeer. All rights reserved
+            &copy; {new Date().getFullYear()} 8bit Labs OÜ. All rights reserved
           </p>
         </div>
         <div className="flex felx-row justify-start items-start gap-6">
