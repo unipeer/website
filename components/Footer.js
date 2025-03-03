@@ -27,8 +27,8 @@ export default function Footer() {
 
       <div className="pt-8 flex flex-col md:flex-row justify-start md:justify-center items-start md:items-center gap-6 md:gap-6">
         <a
-          href="https://app.unipeer.exchange/"
-          target="https://app.unipeer.exchange/"
+          href="https://app.unipeer.eth.limo/"
+          target="https://app.unipeer.eth.limo/"
           className="font-Inter px-2 font-medium text-base text-white-500 transition duration-150 ease-in-out"
         >
           Try on Testnet

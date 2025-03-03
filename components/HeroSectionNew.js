@@ -22,7 +22,7 @@ const HeroSectionNew = () => {
             <div className="mt-5 sm:mt-8 flex flex-row justify-center items-center gap-4 flex-wrap">
               <div className="rounded-lg">
                 <a
-                  href="https://app.unipeer.exchange"
+                  href="https://app.unipeer.eth.limo"
                   className="font-Inter w-full flex bg-primary-500 hover:bg-primary-700 items-center justify-center text-[16px] font-semibold px-4 py-3 border border-transparent  leading-6 rounded-md text-white focus:outline-none focus:border-indigo-700  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-6"
                 >
                   Try on Testnet

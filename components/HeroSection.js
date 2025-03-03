@@ -18,7 +18,7 @@ const HeroSection = () => {
             <div className="mt-5 sm:mt-8 flex flex-row justify-start items-center gap-4 ">
               <div className="rounded-md shadow">
                 <a
-                  href="https://app.unipeer.exchange"
+                  href="https://app.unipeer.eth.limo"
                   className=" font-Inter w-full flex  bg-[#fe5e44] hover:bg-[#B62224] items-center justify-center text-base px-4 py-3 border border-transparent  leading-6 font-semibold rounded-md text-white focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                 >
                   Try on Testnet
